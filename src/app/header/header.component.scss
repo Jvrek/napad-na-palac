@@ -1,3 +1,42 @@
-.big-word {
-    font-size: 120px;
+.media {
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  position: absolute;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+figure {
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  margin:0 
+}
+figcaption {
+  color: #252830;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+svg {
+  height: inherit;
+}
+svg text {
+  text-anchor: left;
+}
+svg #alpha {
+  fill: white;
+}
+svg .title {
+  font-size: 40px;
+  font-family: "Montserrat";
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+svg #base {
+  fill: #000;
+  -webkit-mask: url(#mask);
+  mask: url(#mask);
 }
